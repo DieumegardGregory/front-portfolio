@@ -1,0 +1,14 @@
+.entities-list {
+    margin: 1em auto;
+    width: 90%;
+}
+
+.element-display {
+    border-bottom: 3px solid var(--dark-color);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.infos-container, .btns-container {
+    margin: auto;
+}

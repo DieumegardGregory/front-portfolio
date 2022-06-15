@@ -1,0 +1,12 @@
+.header-container {
+    position: relative;
+    height: 75px;
+    background-color: var(--dark-color);
+    color: var(--police);
+}
+
+.return-btn {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}

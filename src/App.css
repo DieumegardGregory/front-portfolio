@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+ :root {
+   --light-color: lightblue;
+   --dark-color: #5c5c5c;
+   --police: #ffffff;
+ }
+
+.flex-center-row, .flex-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-center-column {
+  flex-direction: column;
+}
+
+.flex-around-row, .flex-around-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-around-column {
+  flex-direction: column;
+}
+
+button {
+  margin: 1em;
+  padding: .25em;
+  border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.grid-60-40 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}

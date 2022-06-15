@@ -1,0 +1,22 @@
+.modal-container {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    border: 3px solid var(--light-color);
+    border-radius: 5px;
+    background-color: var(--dark-color);
+    overflow: scroll;
+    animation: appear 0.2s linear;
+}
+
+@keyframes appear {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

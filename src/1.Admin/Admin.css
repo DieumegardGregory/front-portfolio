@@ -1,0 +1,11 @@
+.entities--form {
+    border: 1px solid var(--dark-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.admin-label, .admin-input {
+    margin: .5em;
+}

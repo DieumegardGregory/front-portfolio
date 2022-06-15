@@ -1,0 +1,23 @@
+.menu--page {
+    width: 95vw;
+    height: 95vh;
+    margin: auto;
+}
+
+.menu-list {
+    list-style: none;
+    height: 70%;
+}
+
+.menu-item {
+    height: 50px;
+    width: 250px;
+    background-color: var(--light-color);
+    border-radius: 5px;
+    border: 2px solid var(--dark-color);  
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--dark-color);
+}

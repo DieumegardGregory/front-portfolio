@@ -1,0 +1,9 @@
+.form--container {
+    height: 40vh;
+    width: 80%;
+    background-color: var(--light-color);
+    border: 2px solid var(--dark-color);
+    border-radius: .5rem;
+    margin: 4em auto;
+    padding: 1rem;
+}
