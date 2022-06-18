@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import LoginModule from './1.Admin/components/LoginModule/LoginModule';
+//import LoginModule from './1.Admin/components/LoginModule/LoginModule';
+import Home from './2.Public/components/Home';
 import Admin from './1.Admin/Admin';
 import ExperiencesBoard from './1.Admin/components/ExperiencesBoard/ExperiencesBoard';
 import FormationsBoard from './1.Admin/components/FormationsBoard/FormationsBoard';
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<LoginModule />} />
+        <Route path="/" element={<Home />} />
         <Route path="/admin/:id" element={<Admin />} />
         <Route path="/admin/experiences" element={<ExperiencesBoard />} />
         <Route path="/admin/formations" element={<FormationsBoard />} />

@@ -9,3 +9,11 @@
 .admin-label, .admin-input {
     margin: .5em;
 }
+
+.admin-textarea {
+    padding: .25em;
+}
+
+.admin-textarea:focus {
+    outline: solid var(--focused);
+}
